@@ -1,0 +1,18 @@
+body .ddk-container{
+    min-height: 100vh
+}
+
+.ddk-container{
+-webkit-print-color-adjust:exact !important!
+}
+div .img{
+    position: absolute;
+    display: inline-block;
+    vertical-align:top;
+    background-color: red;
+}
+.ddk-container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
