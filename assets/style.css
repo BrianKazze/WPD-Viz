@@ -1,0 +1,149 @@
+.body{
+background-color: #F9F9F9;
+
+}
+.card-row{
+ justify-content: center;
+
+}
+.card-row .col{
+ flex-grow: 0;
+ margin: 0 10px;
+}
+
+img{
+    width: 30px;
+    height:30px;
+}
+
+.img {
+    width: 25px;
+    height: 25px;
+    top: 35%;
+    display: block;
+    position: relative;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-icon-right {
+  background-color: #537AAF;
+  width: 25%;
+  position: absolute;
+  right:0;
+  top: 0%;
+  height: 100%;
+  border: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+.shadow {
+  width: 15rem;
+  height: 15vh;
+  border-radius: 0 0 0 0px;
+}
+.outer{
+ width: 10rem;
+ height: 10vh;
+ border-radius: 0 0 0 0px;
+ border: 1px solid #C5C6D0;
+ box-shadow: 1px 1px 1px #C5C6D0;
+}
+.DateInput_input, .DateInput_input_1 {
+  color: inherit !important;
+  text-align: center;
+  font-size: inherit ! important;
+  Height: 25px !important;
+  Width: 100% !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+.card{
+    background-color: #F9F9F9;
+    border-radius: 0 0 0 0px;
+    width: 15rem;
+    height: 15vh;
+}
+.edit-theme-button {
+
+    -webkit-print-color-adjust: exact !important;
+    color: #606060;
+    font-family: Open Sans;
+    --accent-faded: rgba(31,120,180,0.5);
+    --accent: #1f78b4;
+    --accent_positive: #017500;
+    --accent_negative: #C20000;
+    --background_content: #F9F9F9;
+    --background_page: #F2F2F2;
+    --border: #e2e2e2;
+    --border_style: [object Object];
+    --card_margin: 15px;
+    --card_padding: 5px;
+    --card_border: [object Object];
+    --card_background_color: #F9F9F9;
+    --card_box_shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+    --card_outline: [object Object];
+    --card_header_margin: 0px;
+    --card_header_padding: 10px;
+    --card_header_border: [object Object];
+    --card_header_background_color: #F9F9F9;
+    --card_header_box_shadow: 0px 0px 0px rgba(0,0,0,0);
+    --breakpoint_font: 1200px;
+    --breakpoint_stack_blocks: 700px;
+    --colorway-0: #119dff;
+    --colorway-1: #66c2a5;
+    --colorway-2: #fc8d62;
+    --colorway-3: #e78ac3;
+    --colorway-4: #a6d854;
+    --colorway-5: #ffd92f;
+    --colorway-6: #e5c494;
+    --colorway-7: #b3b3b3;
+    --colorscale-0: #1f78b4;
+    --colorscale-1: #4786bc;
+    --colorscale-2: #6394c5;
+    --colorscale-3: #7ba3cd;
+    --colorscale-4: #92b1d5;
+    --colorscale-5: #a9c0de;
+    --colorscale-6: #bed0e6;
+    --colorscale-7: #d4dfee;
+    --colorscale-8: #eaeff7;
+    --colorscale-9: #ffffff;
+    --font_family: Open Sans;
+    --font_family_header: Open Sans;
+    --font_family_headings: Open Sans;
+    --font_size: 17px;
+    --font_size_smaller_screen: 15px;
+    --font_size_header: 24px;
+    --header_margin: 0px 0px 15px 0px;
+    --header_padding: 0px;
+    --header_border: [object Object];
+    --header_background_color: #F9F9F9;
+    --header_box_shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+    --text: #606060;
+    --report_background_content: #FAFBFC;
+    --report_background_page: white;
+    --report_text: black;
+    --report_font_family: Computer Modern;
+    --report_font_size: 12px;
+    font-size: 15px;
+    box-sizing: inherit;
+    height: 100%;
+    width: auto;
+    position: relative;
+
+}  
+ .card {
+      overflow: hidden;
+  }
+
+    .card-img-left {
+        position: absolute;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: 40%;
+    }
+
+    .card-img-left ~ .card-body {
+        margin-left: 40%;
+    }
